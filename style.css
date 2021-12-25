@@ -1,0 +1,44 @@
+:root {
+    --theme-color-one: #025ba0;
+    --theme-color-two: #9bc72b;
+    --theme-color-three:#f0c517;
+    --theme-color-four: #bf1724;
+    --theme-color-five: #5cc9f4;
+    --white: #fff;
+    --black: #000;
+    --grey: #999;
+    background: var(--black);
+    color:var(--white);
+}
+
+body {
+    font-family:"Lucida Handwriting", cursive;
+}
+
+.light-bulbs {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+.light-bulb.theme-color-one {
+    background-color: var(--theme-color-one);
+}
+
+.light-bulb.theme-color-two {
+    background-color: var(--theme-color-two);
+}
+
+.light-bulb.theme-color-three {
+    background-color: var(--theme-color-three);
+}
+
+.light-bulb.theme-color-four {
+    background-color: var(--theme-color-four);
+}
+
+.light-bulb.theme-color-five {
+    background-color: var(--theme-color-five);
+}
